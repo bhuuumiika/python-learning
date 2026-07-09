@@ -48,9 +48,10 @@ encrypted_text = encryption(text)
 print("Encrypted text:", encrypted_text)         
 
 def decryption(encrypted_text):
-    row1 = col1 = row2 = col2 = -1
+    
     decrypted_text = ""
     for k in range(0, len(encrypted_text), 2):
+        row1 = col1 = row2 = col2 = -1
         for i in range(5):
             for j in range(5):
                 if encrypted_text[k] in key[i][j]:
