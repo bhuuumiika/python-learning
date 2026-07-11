@@ -15,3 +15,7 @@ def pre_round_processing(binary_hexadecimal_values, binary_roundkey):
     return pre_round
 
 print("Pre-round processing result: ", pre_round_processing(binary_hexadecimal_values, binary_roundkey))
+
+
+
+    
